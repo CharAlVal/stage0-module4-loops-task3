@@ -6,7 +6,7 @@ public class FibonacciSeries {
         int count = 0;
         int result = 0;
 
-        for (int i = 0; i <= lastFibonacci; ++i){
+        for (int i = 1; i <= lastFibonacci; ++i){
             System.out.println(result);
             digit += count;
             count = result;

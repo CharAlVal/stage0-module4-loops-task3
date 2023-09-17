@@ -10,6 +10,6 @@ public class GreatestCommonDivisor {
 
             }
         }
-        System.out.println(i);
+        System.out.println(i+1);
     }
 }
