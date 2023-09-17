@@ -11,6 +11,9 @@ public class DigitsSum {
             result += t-digit;
             t /= 10;
         }
+        if(result < 0){
+            result >>= result;
+        }
         System.out.println(result);
 
     }
